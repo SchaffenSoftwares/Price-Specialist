@@ -11,7 +11,7 @@ class Main:
         @app.route("/")
         def price():
              m=input("Enter product name:")
-             f=open("product.txt","w")
+             f=open(os.getcwd()+"\pricescrap\pricescrap\spiders\product.txt","w")
              f.write(m)
              f.close()
              os.system("crawlerinter.py")
