@@ -1,0 +1,15 @@
+{
+    "name": "Price Specialist",
+    "description":"This extension after installing on chrome will give you the name of the site and merchant who is selling the specific item at lowest price",
+    "version": "1.0",
+    "manifest_version":2,
+        "browser_action":{
+            "default_icon":"icon.png",
+            "default_popup":"popup.html"
+        
+    },
+    "permissions":[
+        "tabs",
+        "storage"
+    ]
+}
